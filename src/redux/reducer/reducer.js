@@ -1,4 +1,4 @@
-import ContactList from "../../component/ContactList";
+// import ContactList from "../../component/ContactList";
 
 let initialState = {
   ContactList:[]
