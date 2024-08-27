@@ -1,3 +1,10 @@
 .title {
   text-align: center;
 }
+
+.searchBox {
+  margin: 9px 0 20px 0;
+}
+.searchButton {
+  margin-top: 9px;
+}

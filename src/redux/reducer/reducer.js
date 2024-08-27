@@ -1,7 +1,5 @@
-// import ContactList from "../../component/ContactList";
-
 let initialState = {
-  ContactList:[]
+  contactList:[]
 };
 
 function reducer(state=initialState,action) {
@@ -10,8 +8,8 @@ function reducer(state=initialState,action) {
     case "ADD_CONTACT":
       return {
         ...state,
-        ContactList:[
-          ...state.ContactList,
+        contactList:[
+          ...state.contactList,
           {
             name: payload.name,
             phoneNumber: payload.phoneNumber

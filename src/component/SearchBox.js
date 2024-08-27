@@ -5,10 +5,14 @@ const SearchBox = () => {
   return (
     <Row>
       <Col lg={10}>
+      <div className="searchBox">
        <Form.Control type="text" placeholder="Name" />
+      </div>
       </Col>
       <Col lg={2}>
+        <div className="searchButton">
         <Button>Search</Button>
+        </div>
       </Col>
     </Row>
   )
